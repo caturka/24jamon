@@ -1,0 +1,7 @@
+# BANGGCATS - JANGAN UPLOAD INI KE GITHUB
+node_modules/
+auth_info/
+.env
+*.log
+.DS_Store
+session/
