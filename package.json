@@ -1,6 +1,7 @@
 {
   "name": "24jamon",
   "version": "1.0.0",
+  "description": "BANGGCATS 88 FITUR + BANNER +628816863236",
   "main": "index.js",
   "engines": {
     "node": "20.x"
@@ -10,11 +11,11 @@
   },
   "dependencies": {
     "@whiskeysockets/baileys": "6.7.8",
-    "pino": "^8.16.0",
-    "axios": "^1.6.0",
-    "yt-search": "^2.10.4",
-    "dotenv": "^16.3.1",
-    "express": "^4.18.2",
-    "qrcode-terminal": "^0.12.0"
+    "axios": "^1.6.7",
+    "dotenv": "^16.4.5",
+    "express": "^4.18.3",
+    "pino": "^8.17.2",
+    "qrcode-terminal": "^0.12.0",
+    "yt-search": "^2.12.1"
   }
 }

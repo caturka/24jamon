@@ -1,8 +1,9 @@
 const express = require('express');
 const app = express();
-app.get('/', (req,res)=>{
-  res.send('<h1>BANGGCATS BOT ON +628816863236</h1><p>PRIVATE CHAT ONLY</p><p>IG @__kerass</p><p>Active: '+new Date().toLocaleString()+'</p>');
+const PORT = process.env.PORT || 3000;
+app.get('/', (req, res) => {
+  res.send('BANGGCATS 88 FITUR + BANNER ONLINE +628816863236');
 });
-app.get('/ping',(req,res)=>res.send('pong'));
-app.listen(3000, ()=>console.log('Keep alive ON port 3000'));
-module.exports = app;
+app.listen(PORT, () => {
+  console.log(`Keep alive port ${PORT}`);
+});
